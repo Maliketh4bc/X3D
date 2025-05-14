@@ -53,6 +53,28 @@
         <Material
             diffuseColor='0 0 0'
             emissiveColor='1 0.9917 0.492306'/>
+Transform {
+  translation 0 -1.5 0
+  children Shape {
+    appearance Appearance {
+      material Material {
+        diffuseColor 0 0.5 1
+      }
+    }
+    geometry Text {
+      string [
+        "Hola",
+        "Caracola"
+      ]
+      fontStyle FontStyle {
+        justify [
+          "MIDDLE",
+          "BEGIN"
+        ]
+      }
+    }
+  }
+}
       </Appearance>
     </ParticleSystem>
   </Scene>
