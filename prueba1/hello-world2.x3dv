@@ -28,6 +28,7 @@ Transform {
 
 Inline {
     url "Among_us.x3d"
+    translation 1 -1.5 -0.5
 }
 
 Transform {
