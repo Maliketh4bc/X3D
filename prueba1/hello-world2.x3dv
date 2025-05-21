@@ -36,7 +36,7 @@ Transform {
   children Shape {
     appearance Appearance {
       material Material {
-        diffuseColor 0 0.5 1
+        diffuseColor 0.5 1 1
       }
     }
     geometry Text {
